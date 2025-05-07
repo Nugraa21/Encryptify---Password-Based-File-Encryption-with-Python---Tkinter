@@ -59,7 +59,7 @@ class EncryptionApp:
         self.main_frame = tk.Frame(self.root, bg="#0d1117")
         self.main_frame.pack(fill="both", expand=True)
 
-        self.label = tk.Label(self.main_frame, text="🔒 GitHub Style Encryption", font=("Helvetica", 20, "bold"), bg="#0d1117", fg="#58a6ff")
+        self.label = tk.Label(self.main_frame, text="Masukan data yang akan di enkripsi", font=("Helvetica", 20, "bold"), bg="#0d1117", fg="#58a6ff")
         self.label.pack(pady=20)
 
         self.key_entry = ttk.Entry(self.main_frame, width=50, show="*")
